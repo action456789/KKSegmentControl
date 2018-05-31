@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E3E552820BE9FEF00AB685E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3E552720BE9FEF00AB685E /* AppDelegate.m */; };
+		2E3E552E20BE9FEF00AB685E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E3E552C20BE9FEF00AB685E /* Main.storyboard */; };
+		2E3E553020BE9FF100AB685E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E3E552F20BE9FF100AB685E /* Assets.xcassets */; };
+		2E3E553320BE9FF100AB685E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E3E553120BE9FF100AB685E /* LaunchScreen.storyboard */; };
+		2E3E553620BE9FF100AB685E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3E553520BE9FF100AB685E /* main.m */; };
+		2E3E554620BEA15A00AB685E /* SegmentControlFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E3E554120BEA00E00AB685E /* SegmentControlFramework.framework */; };
+		2E3E554720BEA15A00AB685E /* SegmentControlFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2E3E554120BEA00E00AB685E /* SegmentControlFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2E3E557420BEA41900AB685E /* KKSegmentControlBaseLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3E556820BEA41800AB685E /* KKSegmentControlBaseLayout.m */; };
+		2E3E557520BEA41900AB685E /* KKSegmentControlHeadVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3E556B20BEA41800AB685E /* KKSegmentControlHeadVC.m */; };
+		2E3E557620BEA41900AB685E /* KKSegmentControlLayoutAuto.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3E556C20BEA41900AB685E /* KKSegmentControlLayoutAuto.m */; };
+		2E3E557720BEA41900AB685E /* KKSegmentControlAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3E556D20BEA41900AB685E /* KKSegmentControlAppearance.m */; };
+		2E3E557820BEA41900AB685E /* KKSegmentControlPageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3E556F20BEA41900AB685E /* KKSegmentControlPageVC.m */; };
+		2E3E557920BEA41900AB685E /* KKSegmentControlLayoutBisect.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3E557320BEA41900AB685E /* KKSegmentControlLayoutBisect.m */; };
+		2E3E558420BEA45900AB685E /* KKSegmentControlVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3E557E20BEA45800AB685E /* KKSegmentControlVC.m */; };
+		2E3E558520BEA45900AB685E /* SlideTabBarItemController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3E558120BEA45900AB685E /* SlideTabBarItemController.m */; };
+		2E3E558620BEA45900AB685E /* KKSegmentControlDemoPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3E558220BEA45900AB685E /* KKSegmentControlDemoPageVC.swift */; };
+		2E3E558720BEA45900AB685E /* KKSegmentControlDemoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3E558320BEA45900AB685E /* KKSegmentControlDemoVC.swift */; };
+		2E3E558C20BEA4F800AB685E /* UIColor+Creator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3E558B20BEA4F800AB685E /* UIColor+Creator.m */; };
+		2E3E558F20BEA66700AB685E /* UIColor+FormatConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3E558D20BEA66600AB685E /* UIColor+FormatConversion.m */; };
+		2E3E559220BEA68000AB685E /* NSString+Trim.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3E559120BEA68000AB685E /* NSString+Trim.m */; };
+		2E3E559520BEA6AE00AB685E /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3E559420BEA6AE00AB685E /* UIView+Frame.m */; };
+		6D23BA07B7FE92D010169EBB /* Pods_SegmentControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F9996F2C12D1986F989971F /* Pods_SegmentControl.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2E3E554020BEA00E00AB685E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E3E553C20BEA00E00AB685E /* SegmentControlFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2E3E550F20BE9FC000AB685E;
+			remoteInfo = SegmentControlFramework;
+		};
+		2E3E554220BEA05A00AB685E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E3E553C20BEA00E00AB685E /* SegmentControlFramework.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E3E550E20BE9FC000AB685E;
+			remoteInfo = SegmentControlFramework;
+		};
+		2E3E554820BEA15A00AB685E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E3E553C20BEA00E00AB685E /* SegmentControlFramework.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E3E550E20BE9FC000AB685E;
+			remoteInfo = SegmentControlFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2E3E554A20BEA15A00AB685E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2E3E554720BEA15A00AB685E /* SegmentControlFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2E3E552320BE9FEF00AB685E /* SegmentControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SegmentControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E3E552620BE9FEF00AB685E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2E3E552720BE9FEF00AB685E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2E3E552D20BE9FEF00AB685E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2E3E552F20BE9FF100AB685E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E3E553220BE9FF100AB685E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2E3E553420BE9FF100AB685E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E3E553520BE9FF100AB685E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2E3E553C20BEA00E00AB685E /* SegmentControlFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SegmentControlFramework.xcodeproj; path = ../SegmentControlFramework/SegmentControlFramework.xcodeproj; sourceTree = "<group>"; };
+		2E3E556820BEA41800AB685E /* KKSegmentControlBaseLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKSegmentControlBaseLayout.m; sourceTree = "<group>"; };
+		2E3E556920BEA41800AB685E /* KKSegmentControlHeadVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKSegmentControlHeadVC.h; sourceTree = "<group>"; };
+		2E3E556A20BEA41800AB685E /* KKSegmentControlLayoutAuto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKSegmentControlLayoutAuto.h; sourceTree = "<group>"; };
+		2E3E556B20BEA41800AB685E /* KKSegmentControlHeadVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKSegmentControlHeadVC.m; sourceTree = "<group>"; };
+		2E3E556C20BEA41900AB685E /* KKSegmentControlLayoutAuto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKSegmentControlLayoutAuto.m; sourceTree = "<group>"; };
+		2E3E556D20BEA41900AB685E /* KKSegmentControlAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKSegmentControlAppearance.m; sourceTree = "<group>"; };
+		2E3E556E20BEA41900AB685E /* KKSegmentControlPageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKSegmentControlPageVC.h; sourceTree = "<group>"; };
+		2E3E556F20BEA41900AB685E /* KKSegmentControlPageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKSegmentControlPageVC.m; sourceTree = "<group>"; };
+		2E3E557020BEA41900AB685E /* KKSegmentControlLayoutBisect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKSegmentControlLayoutBisect.h; sourceTree = "<group>"; };
+		2E3E557120BEA41900AB685E /* KKSegmentControlAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKSegmentControlAppearance.h; sourceTree = "<group>"; };
+		2E3E557220BEA41900AB685E /* KKSegmentControlBaseLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKSegmentControlBaseLayout.h; sourceTree = "<group>"; };
+		2E3E557320BEA41900AB685E /* KKSegmentControlLayoutBisect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKSegmentControlLayoutBisect.m; sourceTree = "<group>"; };
+		2E3E557D20BEA45700AB685E /* SegmentControl-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SegmentControl-Bridging-Header.h"; sourceTree = "<group>"; };
+		2E3E557E20BEA45800AB685E /* KKSegmentControlVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKSegmentControlVC.m; sourceTree = "<group>"; };
+		2E3E557F20BEA45800AB685E /* KKSegmentControlVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKSegmentControlVC.h; sourceTree = "<group>"; };
+		2E3E558020BEA45900AB685E /* SlideTabBarItemController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideTabBarItemController.h; sourceTree = "<group>"; };
+		2E3E558120BEA45900AB685E /* SlideTabBarItemController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideTabBarItemController.m; sourceTree = "<group>"; };
+		2E3E558220BEA45900AB685E /* KKSegmentControlDemoPageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKSegmentControlDemoPageVC.swift; sourceTree = "<group>"; };
+		2E3E558320BEA45900AB685E /* KKSegmentControlDemoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKSegmentControlDemoVC.swift; sourceTree = "<group>"; };
+		2E3E558A20BEA4F800AB685E /* UIColor+Creator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Creator.h"; sourceTree = "<group>"; };
+		2E3E558B20BEA4F800AB685E /* UIColor+Creator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Creator.m"; sourceTree = "<group>"; };
+		2E3E558D20BEA66600AB685E /* UIColor+FormatConversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+FormatConversion.m"; sourceTree = "<group>"; };
+		2E3E558E20BEA66700AB685E /* UIColor+FormatConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+FormatConversion.h"; sourceTree = "<group>"; };
+		2E3E559020BEA68000AB685E /* NSString+Trim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Trim.h"; sourceTree = "<group>"; };
+		2E3E559120BEA68000AB685E /* NSString+Trim.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Trim.m"; sourceTree = "<group>"; };
+		2E3E559320BEA6AE00AB685E /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		2E3E559420BEA6AE00AB685E /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		9F9996F2C12D1986F989971F /* Pods_SegmentControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SegmentControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8F5A5AD6CC04D2FDCA51219 /* Pods-SegmentControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SegmentControl.release.xcconfig"; path = "Pods/Target Support Files/Pods-SegmentControl/Pods-SegmentControl.release.xcconfig"; sourceTree = "<group>"; };
+		E8D92491BFFE238D31DB97F8 /* Pods-SegmentControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SegmentControl.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SegmentControl/Pods-SegmentControl.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E3E552020BE9FEF00AB685E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E3E554620BEA15A00AB685E /* SegmentControlFramework.framework in Frameworks */,
+				6D23BA07B7FE92D010169EBB /* Pods_SegmentControl.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22B07DF8D78A3C3E3946B589 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8D92491BFFE238D31DB97F8 /* Pods-SegmentControl.debug.xcconfig */,
+				A8F5A5AD6CC04D2FDCA51219 /* Pods-SegmentControl.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2E3E551A20BE9FEF00AB685E = {
+			isa = PBXGroup;
+			children = (
+				2E3E553C20BEA00E00AB685E /* SegmentControlFramework.xcodeproj */,
+				2E3E552520BE9FEF00AB685E /* SegmentControl */,
+				2E3E552420BE9FEF00AB685E /* Products */,
+				2E3E554420BEA0C600AB685E /* Frameworks */,
+				22B07DF8D78A3C3E3946B589 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		2E3E552420BE9FEF00AB685E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E3E552320BE9FEF00AB685E /* SegmentControl.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E3E552520BE9FEF00AB685E /* SegmentControl */ = {
+			isa = PBXGroup;
+			children = (
+				2E3E557C20BEA43C00AB685E /* Core */,
+				2E3E552620BE9FEF00AB685E /* AppDelegate.h */,
+				2E3E552720BE9FEF00AB685E /* AppDelegate.m */,
+				2E3E552C20BE9FEF00AB685E /* Main.storyboard */,
+				2E3E558220BEA45900AB685E /* KKSegmentControlDemoPageVC.swift */,
+				2E3E558320BEA45900AB685E /* KKSegmentControlDemoVC.swift */,
+				2E3E557F20BEA45800AB685E /* KKSegmentControlVC.h */,
+				2E3E557E20BEA45800AB685E /* KKSegmentControlVC.m */,
+				2E3E558020BEA45900AB685E /* SlideTabBarItemController.h */,
+				2E3E558120BEA45900AB685E /* SlideTabBarItemController.m */,
+				2E3E558A20BEA4F800AB685E /* UIColor+Creator.h */,
+				2E3E558B20BEA4F800AB685E /* UIColor+Creator.m */,
+				2E3E558E20BEA66700AB685E /* UIColor+FormatConversion.h */,
+				2E3E558D20BEA66600AB685E /* UIColor+FormatConversion.m */,
+				2E3E559020BEA68000AB685E /* NSString+Trim.h */,
+				2E3E559120BEA68000AB685E /* NSString+Trim.m */,
+				2E3E559320BEA6AE00AB685E /* UIView+Frame.h */,
+				2E3E559420BEA6AE00AB685E /* UIView+Frame.m */,
+				2E3E552F20BE9FF100AB685E /* Assets.xcassets */,
+				2E3E553120BE9FF100AB685E /* LaunchScreen.storyboard */,
+				2E3E553420BE9FF100AB685E /* Info.plist */,
+				2E3E553520BE9FF100AB685E /* main.m */,
+				2E3E557D20BEA45700AB685E /* SegmentControl-Bridging-Header.h */,
+			);
+			path = SegmentControl;
+			sourceTree = "<group>";
+		};
+		2E3E553D20BEA00E00AB685E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E3E554120BEA00E00AB685E /* SegmentControlFramework.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E3E554420BEA0C600AB685E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F9996F2C12D1986F989971F /* Pods_SegmentControl.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2E3E557C20BEA43C00AB685E /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				2E3E557120BEA41900AB685E /* KKSegmentControlAppearance.h */,
+				2E3E556D20BEA41900AB685E /* KKSegmentControlAppearance.m */,
+				2E3E557220BEA41900AB685E /* KKSegmentControlBaseLayout.h */,
+				2E3E556820BEA41800AB685E /* KKSegmentControlBaseLayout.m */,
+				2E3E556920BEA41800AB685E /* KKSegmentControlHeadVC.h */,
+				2E3E556B20BEA41800AB685E /* KKSegmentControlHeadVC.m */,
+				2E3E556A20BEA41800AB685E /* KKSegmentControlLayoutAuto.h */,
+				2E3E556C20BEA41900AB685E /* KKSegmentControlLayoutAuto.m */,
+				2E3E557020BEA41900AB685E /* KKSegmentControlLayoutBisect.h */,
+				2E3E557320BEA41900AB685E /* KKSegmentControlLayoutBisect.m */,
+				2E3E556E20BEA41900AB685E /* KKSegmentControlPageVC.h */,
+				2E3E556F20BEA41900AB685E /* KKSegmentControlPageVC.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E3E552220BE9FEF00AB685E /* SegmentControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E3E553920BE9FF100AB685E /* Build configuration list for PBXNativeTarget "SegmentControl" */;
+			buildPhases = (
+				26301962D4776E64C1313D3F /* [CP] Check Pods Manifest.lock */,
+				2E3E551F20BE9FEF00AB685E /* Sources */,
+				2E3E552020BE9FEF00AB685E /* Frameworks */,
+				2E3E552120BE9FEF00AB685E /* Resources */,
+				2E3E554A20BEA15A00AB685E /* Embed Frameworks */,
+				AF9A1B2DB030FF3E0403FBEB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E3E554320BEA05A00AB685E /* PBXTargetDependency */,
+				2E3E554920BEA15A00AB685E /* PBXTargetDependency */,
+			);
+			name = SegmentControl;
+			productName = SegmentControl;
+			productReference = 2E3E552320BE9FEF00AB685E /* SegmentControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E3E551B20BE9FEF00AB685E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "ke sen.";
+				TargetAttributes = {
+					2E3E552220BE9FEF00AB685E = {
+						CreatedOnToolsVersion = 9.3.1;
+						LastSwiftMigration = 0930;
+					};
+				};
+			};
+			buildConfigurationList = 2E3E551E20BE9FEF00AB685E /* Build configuration list for PBXProject "SegmentControl" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E3E551A20BE9FEF00AB685E;
+			productRefGroup = 2E3E552420BE9FEF00AB685E /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 2E3E553D20BEA00E00AB685E /* Products */;
+					ProjectRef = 2E3E553C20BEA00E00AB685E /* SegmentControlFramework.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				2E3E552220BE9FEF00AB685E /* SegmentControl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		2E3E554120BEA00E00AB685E /* SegmentControlFramework.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SegmentControlFramework.framework;
+			remoteRef = 2E3E554020BEA00E00AB685E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E3E552120BE9FEF00AB685E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E3E553320BE9FF100AB685E /* LaunchScreen.storyboard in Resources */,
+				2E3E553020BE9FF100AB685E /* Assets.xcassets in Resources */,
+				2E3E552E20BE9FEF00AB685E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26301962D4776E64C1313D3F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SegmentControl-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF9A1B2DB030FF3E0403FBEB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SegmentControl/Pods-SegmentControl-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SegmentControl/Pods-SegmentControl-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E3E551F20BE9FEF00AB685E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E3E558620BEA45900AB685E /* KKSegmentControlDemoPageVC.swift in Sources */,
+				2E3E558720BEA45900AB685E /* KKSegmentControlDemoVC.swift in Sources */,
+				2E3E553620BE9FF100AB685E /* main.m in Sources */,
+				2E3E558420BEA45900AB685E /* KKSegmentControlVC.m in Sources */,
+				2E3E558520BEA45900AB685E /* SlideTabBarItemController.m in Sources */,
+				2E3E557920BEA41900AB685E /* KKSegmentControlLayoutBisect.m in Sources */,
+				2E3E557720BEA41900AB685E /* KKSegmentControlAppearance.m in Sources */,
+				2E3E558C20BEA4F800AB685E /* UIColor+Creator.m in Sources */,
+				2E3E559220BEA68000AB685E /* NSString+Trim.m in Sources */,
+				2E3E557820BEA41900AB685E /* KKSegmentControlPageVC.m in Sources */,
+				2E3E558F20BEA66700AB685E /* UIColor+FormatConversion.m in Sources */,
+				2E3E557520BEA41900AB685E /* KKSegmentControlHeadVC.m in Sources */,
+				2E3E557420BEA41900AB685E /* KKSegmentControlBaseLayout.m in Sources */,
+				2E3E559520BEA6AE00AB685E /* UIView+Frame.m in Sources */,
+				2E3E557620BEA41900AB685E /* KKSegmentControlLayoutAuto.m in Sources */,
+				2E3E552820BE9FEF00AB685E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E3E554320BEA05A00AB685E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SegmentControlFramework;
+			targetProxy = 2E3E554220BEA05A00AB685E /* PBXContainerItemProxy */;
+		};
+		2E3E554920BEA15A00AB685E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SegmentControlFramework;
+			targetProxy = 2E3E554820BEA15A00AB685E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2E3E552C20BE9FEF00AB685E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E3E552D20BE9FEF00AB685E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2E3E553120BE9FF100AB685E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E3E553220BE9FF100AB685E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E3E553720BE9FF100AB685E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2E3E553820BE9FF100AB685E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E3E553A20BE9FF100AB685E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8D92491BFFE238D31DB97F8 /* Pods-SegmentControl.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SegmentControl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/SegmentControl-cqnomggpbffjgrcwxredbruxjxgx/Build/Products/Debug-iphoneos/SegmentControlFramework.framework\"";
+				PRODUCT_BUNDLE_IDENTIFIER = KK.SegmentControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SegmentControl/SegmentControl-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2E3E553B20BE9FF100AB685E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8F5A5AD6CC04D2FDCA51219 /* Pods-SegmentControl.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SegmentControl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KK.SegmentControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SegmentControl/SegmentControl-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E3E551E20BE9FEF00AB685E /* Build configuration list for PBXProject "SegmentControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E3E553720BE9FF100AB685E /* Debug */,
+				2E3E553820BE9FF100AB685E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E3E553920BE9FF100AB685E /* Build configuration list for PBXNativeTarget "SegmentControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E3E553A20BE9FF100AB685E /* Debug */,
+				2E3E553B20BE9FF100AB685E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E3E551B20BE9FEF00AB685E /* Project object */;
+}
