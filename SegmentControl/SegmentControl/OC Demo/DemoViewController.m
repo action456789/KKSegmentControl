@@ -9,6 +9,7 @@
 #import "DemoViewController.h"
 #import "KKSegmentControlAppearance.h"
 #import "KKSegmentControlLayoutAuto.h"
+#import "KKSegmentControlLayoutBisect.h"
 #import "KKSegmentControlVC.h"
 #import "PageViewController.h"
 
@@ -20,6 +21,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    // TODO: fix bug of KKSegmentControlLayoutBiset
+    
     
     NSArray *titles = @[@"哈喽", @"弓箭女皇", @"野蛮人之王", @"头号玩家", @"哈哈哈", @"哈喽", @"弓箭女皇", @"野蛮人之王", @"头号玩家"];
     KKSegmentControlAppearance *appearance = [KKSegmentControlAppearance new];
@@ -35,6 +39,7 @@
 
 
 - (UIViewController *)segmentControlVC:(KKSegmentControlVC *)segmentControl viewControllerForPageAtIndex:(NSInteger)index {
+    NSLog(@"%s", __func__);
     UIViewController *vc = [PageViewController new];
     return vc;
 }

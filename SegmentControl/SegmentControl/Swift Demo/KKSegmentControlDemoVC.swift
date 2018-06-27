@@ -23,9 +23,9 @@ class KKSegmentControlDemoVC: UIViewController {
         self.view.addSubview(vc.view)
         self.addChildViewController(vc)
         
-        vc.view.snp.makeConstraints { (make) in
-            make.edges.equalTo(self.view).inset(UIEdgeInsets(top: 80, left: 0, bottom: 0, right: 0))
-        }
+//        vc.view.snp.makeConstraints { (make) in
+//            make.edges.equalTo(self.view).inset(UIEdgeInsets(top: 80, left: 0, bottom: 0, right: 0))
+//        }
     }
 
     override func didReceiveMemoryWarning() {
