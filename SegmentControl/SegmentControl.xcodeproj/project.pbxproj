@@ -23,15 +23,15 @@
 		2E3E559520BEA6AE00AB685E /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3E559420BEA6AE00AB685E /* UIView+Frame.m */; };
 		2EA0817920C7E37A00A8A863 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA0817820C7E37A00A8A863 /* DemoViewController.m */; };
 		2EA0817C20C7E6CB00A8A863 /* PageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA0817B20C7E6CB00A8A863 /* PageViewController.m */; };
-		2EDA099820E329FF006E91C5 /* KKSegmentControlAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDA098420E329FF006E91C5 /* KKSegmentControlAppearance.m */; };
-		2EDA099920E329FF006E91C5 /* KKSegmentControlPageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDA098720E329FF006E91C5 /* KKSegmentControlPageVC.m */; };
-		2EDA099B20E329FF006E91C5 /* KKSegmentControlLayoutBisect.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDA098920E329FF006E91C5 /* KKSegmentControlLayoutBisect.m */; };
-		2EDA099C20E329FF006E91C5 /* KKSegmentControlVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDA098A20E329FF006E91C5 /* KKSegmentControlVC.m */; };
-		2EDA099D20E329FF006E91C5 /* KKSegmentControlHeadVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDA098C20E329FF006E91C5 /* KKSegmentControlHeadVC.m */; };
-		2EDA099E20E329FF006E91C5 /* KKSegmentTableViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDA098E20E329FF006E91C5 /* KKSegmentTableViewVC.m */; };
-		2EDA099F20E329FF006E91C5 /* KKSegmentControlBaseLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDA099120E329FF006E91C5 /* KKSegmentControlBaseLayout.m */; };
-		2EDA09A020E329FF006E91C5 /* KKSegmentControlCombiner.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDA099420E329FF006E91C5 /* KKSegmentControlCombiner.m */; };
-		2EDA09A120E329FF006E91C5 /* KKSegmentControlLayoutAuto.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDA099720E329FF006E91C5 /* KKSegmentControlLayoutAuto.m */; };
+		2EDA09F320E3C225006E91C5 /* KKSegmentControlVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDA09E120E3C223006E91C5 /* KKSegmentControlVC.m */; };
+		2EDA09F420E3C225006E91C5 /* KKSegmentControlAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDA09E320E3C223006E91C5 /* KKSegmentControlAppearance.m */; };
+		2EDA09F520E3C225006E91C5 /* KKSegmentTableViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDA09E920E3C224006E91C5 /* KKSegmentTableViewVC.m */; };
+		2EDA09F620E3C225006E91C5 /* KKSegmentControlBaseLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDA09EA20E3C224006E91C5 /* KKSegmentControlBaseLayout.m */; };
+		2EDA09F720E3C225006E91C5 /* KKSegmentControlPageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDA09EC20E3C224006E91C5 /* KKSegmentControlPageVC.m */; };
+		2EDA09F820E3C225006E91C5 /* KKSegmentControlHeadVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDA09ED20E3C224006E91C5 /* KKSegmentControlHeadVC.m */; };
+		2EDA09F920E3C225006E91C5 /* KKSegmentControlLayoutAuto.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDA09EE20E3C224006E91C5 /* KKSegmentControlLayoutAuto.m */; };
+		2EDA09FA20E3C225006E91C5 /* KKSegmentControlCombiner.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDA09EF20E3C224006E91C5 /* KKSegmentControlCombiner.m */; };
+		2EDA09FB20E3C225006E91C5 /* KKSegmentControlLayoutBisect.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDA09F220E3C225006E91C5 /* KKSegmentControlLayoutBisect.m */; };
 		6D23BA07B7FE92D010169EBB /* Pods_SegmentControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F9996F2C12D1986F989971F /* Pods_SegmentControl.framework */; };
 /* End PBXBuildFile section */
 
@@ -100,24 +100,24 @@
 		2EA0817820C7E37A00A8A863 /* DemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
 		2EA0817A20C7E6CB00A8A863 /* PageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PageViewController.h; sourceTree = "<group>"; };
 		2EA0817B20C7E6CB00A8A863 /* PageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageViewController.m; sourceTree = "<group>"; };
-		2EDA098420E329FF006E91C5 /* KKSegmentControlAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKSegmentControlAppearance.m; sourceTree = "<group>"; };
-		2EDA098520E329FF006E91C5 /* KKSegmentTableViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKSegmentTableViewVC.h; sourceTree = "<group>"; };
-		2EDA098620E329FF006E91C5 /* KKSegmentControlBaseLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKSegmentControlBaseLayout.h; sourceTree = "<group>"; };
-		2EDA098720E329FF006E91C5 /* KKSegmentControlPageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKSegmentControlPageVC.m; sourceTree = "<group>"; };
-		2EDA098920E329FF006E91C5 /* KKSegmentControlLayoutBisect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKSegmentControlLayoutBisect.m; sourceTree = "<group>"; };
-		2EDA098A20E329FF006E91C5 /* KKSegmentControlVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKSegmentControlVC.m; sourceTree = "<group>"; };
-		2EDA098B20E329FF006E91C5 /* KKSegmentControlCombiner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKSegmentControlCombiner.h; sourceTree = "<group>"; };
-		2EDA098C20E329FF006E91C5 /* KKSegmentControlHeadVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKSegmentControlHeadVC.m; sourceTree = "<group>"; };
-		2EDA098D20E329FF006E91C5 /* KKSegmentControlLayoutAuto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKSegmentControlLayoutAuto.h; sourceTree = "<group>"; };
-		2EDA098E20E329FF006E91C5 /* KKSegmentTableViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKSegmentTableViewVC.m; sourceTree = "<group>"; };
-		2EDA098F20E329FF006E91C5 /* KKSegmentControlAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKSegmentControlAppearance.h; sourceTree = "<group>"; };
-		2EDA099020E329FF006E91C5 /* KKSegmentControlPageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKSegmentControlPageVC.h; sourceTree = "<group>"; };
-		2EDA099120E329FF006E91C5 /* KKSegmentControlBaseLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKSegmentControlBaseLayout.m; sourceTree = "<group>"; };
-		2EDA099220E329FF006E91C5 /* KKSegmentControlHeadVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKSegmentControlHeadVC.h; sourceTree = "<group>"; };
-		2EDA099320E329FF006E91C5 /* KKSegmentControlVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKSegmentControlVC.h; sourceTree = "<group>"; };
-		2EDA099420E329FF006E91C5 /* KKSegmentControlCombiner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKSegmentControlCombiner.m; sourceTree = "<group>"; };
-		2EDA099520E329FF006E91C5 /* KKSegmentControlLayoutBisect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKSegmentControlLayoutBisect.h; sourceTree = "<group>"; };
-		2EDA099720E329FF006E91C5 /* KKSegmentControlLayoutAuto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKSegmentControlLayoutAuto.m; sourceTree = "<group>"; };
+		2EDA09E120E3C223006E91C5 /* KKSegmentControlVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKSegmentControlVC.m; sourceTree = "<group>"; };
+		2EDA09E220E3C223006E91C5 /* KKSegmentControlLayoutAuto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKSegmentControlLayoutAuto.h; sourceTree = "<group>"; };
+		2EDA09E320E3C223006E91C5 /* KKSegmentControlAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKSegmentControlAppearance.m; sourceTree = "<group>"; };
+		2EDA09E420E3C224006E91C5 /* KKSegmentControlCombiner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKSegmentControlCombiner.h; sourceTree = "<group>"; };
+		2EDA09E520E3C224006E91C5 /* KKSegmentControlLayoutBisect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKSegmentControlLayoutBisect.h; sourceTree = "<group>"; };
+		2EDA09E620E3C224006E91C5 /* KKSegmentControlAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKSegmentControlAppearance.h; sourceTree = "<group>"; };
+		2EDA09E720E3C224006E91C5 /* KKSegmentTableViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKSegmentTableViewVC.h; sourceTree = "<group>"; };
+		2EDA09E820E3C224006E91C5 /* KKSegmentControlBaseLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKSegmentControlBaseLayout.h; sourceTree = "<group>"; };
+		2EDA09E920E3C224006E91C5 /* KKSegmentTableViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKSegmentTableViewVC.m; sourceTree = "<group>"; };
+		2EDA09EA20E3C224006E91C5 /* KKSegmentControlBaseLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKSegmentControlBaseLayout.m; sourceTree = "<group>"; };
+		2EDA09EB20E3C224006E91C5 /* KKSegmentControlHeadVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKSegmentControlHeadVC.h; sourceTree = "<group>"; };
+		2EDA09EC20E3C224006E91C5 /* KKSegmentControlPageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKSegmentControlPageVC.m; sourceTree = "<group>"; };
+		2EDA09ED20E3C224006E91C5 /* KKSegmentControlHeadVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKSegmentControlHeadVC.m; sourceTree = "<group>"; };
+		2EDA09EE20E3C224006E91C5 /* KKSegmentControlLayoutAuto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKSegmentControlLayoutAuto.m; sourceTree = "<group>"; };
+		2EDA09EF20E3C224006E91C5 /* KKSegmentControlCombiner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKSegmentControlCombiner.m; sourceTree = "<group>"; };
+		2EDA09F020E3C225006E91C5 /* KKSegmentControlPageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKSegmentControlPageVC.h; sourceTree = "<group>"; };
+		2EDA09F120E3C225006E91C5 /* KKSegmentControlVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKSegmentControlVC.h; sourceTree = "<group>"; };
+		2EDA09F220E3C225006E91C5 /* KKSegmentControlLayoutBisect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKSegmentControlLayoutBisect.m; sourceTree = "<group>"; };
 		9F9996F2C12D1986F989971F /* Pods_SegmentControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SegmentControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8F5A5AD6CC04D2FDCA51219 /* Pods-SegmentControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SegmentControl.release.xcconfig"; path = "Pods/Target Support Files/Pods-SegmentControl/Pods-SegmentControl.release.xcconfig"; sourceTree = "<group>"; };
 		E8D92491BFFE238D31DB97F8 /* Pods-SegmentControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SegmentControl.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SegmentControl/Pods-SegmentControl.debug.xcconfig"; sourceTree = "<group>"; };
@@ -167,7 +167,7 @@
 		2E3E552520BE9FEF00AB685E /* SegmentControl */ = {
 			isa = PBXGroup;
 			children = (
-				2EDA098320E329FF006E91C5 /* Core */,
+				2EDA09E020E3C21A006E91C5 /* Core */,
 				2E3E552620BE9FEF00AB685E /* AppDelegate.h */,
 				2E3E552720BE9FEF00AB685E /* AppDelegate.m */,
 				2E3E552C20BE9FEF00AB685E /* Main.storyboard */,
@@ -228,30 +228,29 @@
 			path = "OC Demo";
 			sourceTree = "<group>";
 		};
-		2EDA098320E329FF006E91C5 /* Core */ = {
+		2EDA09E020E3C21A006E91C5 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				2EDA098620E329FF006E91C5 /* KKSegmentControlBaseLayout.h */,
-				2EDA099120E329FF006E91C5 /* KKSegmentControlBaseLayout.m */,
-				2EDA099520E329FF006E91C5 /* KKSegmentControlLayoutBisect.h */,
-				2EDA098920E329FF006E91C5 /* KKSegmentControlLayoutBisect.m */,
-				2EDA098D20E329FF006E91C5 /* KKSegmentControlLayoutAuto.h */,
-				2EDA099720E329FF006E91C5 /* KKSegmentControlLayoutAuto.m */,
-				2EDA098F20E329FF006E91C5 /* KKSegmentControlAppearance.h */,
-				2EDA098420E329FF006E91C5 /* KKSegmentControlAppearance.m */,
-				2EDA099220E329FF006E91C5 /* KKSegmentControlHeadVC.h */,
-				2EDA098C20E329FF006E91C5 /* KKSegmentControlHeadVC.m */,
-				2EDA099020E329FF006E91C5 /* KKSegmentControlPageVC.h */,
-				2EDA098720E329FF006E91C5 /* KKSegmentControlPageVC.m */,
-				2EDA098B20E329FF006E91C5 /* KKSegmentControlCombiner.h */,
-				2EDA099420E329FF006E91C5 /* KKSegmentControlCombiner.m */,
-				2EDA099320E329FF006E91C5 /* KKSegmentControlVC.h */,
-				2EDA098A20E329FF006E91C5 /* KKSegmentControlVC.m */,
-				2EDA098520E329FF006E91C5 /* KKSegmentTableViewVC.h */,
-				2EDA098E20E329FF006E91C5 /* KKSegmentTableViewVC.m */,
+				2EDA09E620E3C224006E91C5 /* KKSegmentControlAppearance.h */,
+				2EDA09E320E3C223006E91C5 /* KKSegmentControlAppearance.m */,
+				2EDA09E820E3C224006E91C5 /* KKSegmentControlBaseLayout.h */,
+				2EDA09EA20E3C224006E91C5 /* KKSegmentControlBaseLayout.m */,
+				2EDA09E420E3C224006E91C5 /* KKSegmentControlCombiner.h */,
+				2EDA09EF20E3C224006E91C5 /* KKSegmentControlCombiner.m */,
+				2EDA09EB20E3C224006E91C5 /* KKSegmentControlHeadVC.h */,
+				2EDA09ED20E3C224006E91C5 /* KKSegmentControlHeadVC.m */,
+				2EDA09E220E3C223006E91C5 /* KKSegmentControlLayoutAuto.h */,
+				2EDA09EE20E3C224006E91C5 /* KKSegmentControlLayoutAuto.m */,
+				2EDA09E520E3C224006E91C5 /* KKSegmentControlLayoutBisect.h */,
+				2EDA09F220E3C225006E91C5 /* KKSegmentControlLayoutBisect.m */,
+				2EDA09F020E3C225006E91C5 /* KKSegmentControlPageVC.h */,
+				2EDA09EC20E3C224006E91C5 /* KKSegmentControlPageVC.m */,
+				2EDA09F120E3C225006E91C5 /* KKSegmentControlVC.h */,
+				2EDA09E120E3C223006E91C5 /* KKSegmentControlVC.m */,
+				2EDA09E720E3C224006E91C5 /* KKSegmentTableViewVC.h */,
+				2EDA09E920E3C224006E91C5 /* KKSegmentTableViewVC.m */,
 			);
-			name = Core;
-			path = ../../../../../Downloads/Core;
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -387,26 +386,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2EDA099C20E329FF006E91C5 /* KKSegmentControlVC.m in Sources */,
 				2E3E558620BEA45900AB685E /* KKSegmentControlDemoPageVC.swift in Sources */,
-				2EDA099F20E329FF006E91C5 /* KKSegmentControlBaseLayout.m in Sources */,
 				2E3E558720BEA45900AB685E /* KKSegmentControlDemoVC.swift in Sources */,
+				2EDA09F620E3C225006E91C5 /* KKSegmentControlBaseLayout.m in Sources */,
+				2EDA09F720E3C225006E91C5 /* KKSegmentControlPageVC.m in Sources */,
+				2EDA09FA20E3C225006E91C5 /* KKSegmentControlCombiner.m in Sources */,
+				2EDA09F820E3C225006E91C5 /* KKSegmentControlHeadVC.m in Sources */,
 				2E3E553620BE9FF100AB685E /* main.m in Sources */,
-				2EDA09A020E329FF006E91C5 /* KKSegmentControlCombiner.m in Sources */,
 				2EA0817920C7E37A00A8A863 /* DemoViewController.m in Sources */,
 				2E3E558520BEA45900AB685E /* SlideTabBarItemController.m in Sources */,
 				2E3E558C20BEA4F800AB685E /* UIColor+Creator.m in Sources */,
+				2EDA09F520E3C225006E91C5 /* KKSegmentTableViewVC.m in Sources */,
+				2EDA09FB20E3C225006E91C5 /* KKSegmentControlLayoutBisect.m in Sources */,
+				2EDA09F920E3C225006E91C5 /* KKSegmentControlLayoutAuto.m in Sources */,
 				2E3E559220BEA68000AB685E /* NSString+Trim.m in Sources */,
-				2EDA099D20E329FF006E91C5 /* KKSegmentControlHeadVC.m in Sources */,
-				2EDA099820E329FF006E91C5 /* KKSegmentControlAppearance.m in Sources */,
 				2EA0817C20C7E6CB00A8A863 /* PageViewController.m in Sources */,
-				2EDA099B20E329FF006E91C5 /* KKSegmentControlLayoutBisect.m in Sources */,
-				2EDA09A120E329FF006E91C5 /* KKSegmentControlLayoutAuto.m in Sources */,
+				2EDA09F420E3C225006E91C5 /* KKSegmentControlAppearance.m in Sources */,
 				2E3E558F20BEA66700AB685E /* UIColor+FormatConversion.m in Sources */,
 				2E3E559520BEA6AE00AB685E /* UIView+Frame.m in Sources */,
-				2EDA099E20E329FF006E91C5 /* KKSegmentTableViewVC.m in Sources */,
+				2EDA09F320E3C225006E91C5 /* KKSegmentControlVC.m in Sources */,
 				2E3E552820BE9FEF00AB685E /* AppDelegate.m in Sources */,
-				2EDA099920E329FF006E91C5 /* KKSegmentControlPageVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
