@@ -23,7 +23,7 @@
     
     _scrollView = ({
         UIScrollView *scrollView = [[UIScrollView alloc] initWithFrame:self.view.frame];
-        scrollView.contentSize = CGSizeMake(kScreenWidth, kScreenHeight * 4);
+        scrollView.contentSize = CGSizeMake(kk_ScreenWidth, kk_ScreenHeight * 4);
         scrollView.alwaysBounceVertical = YES;
         scrollView.delegate = self;
         [self.view addSubview:scrollView];

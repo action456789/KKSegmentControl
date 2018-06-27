@@ -15,8 +15,8 @@ class KKSegmentControlDemoVC: UIViewController {
         super.viewDidLoad()
 
         let titles = ["哈喽", "弓箭女皇", "野蛮人之王", "头号玩家", "哈哈哈", "哈喽", "弓箭女皇", "野蛮人之王", "头号玩家", "哈哈哈"]
-        let config = KKSegmentControlAppearance()
-        let layout = KKSegmentControlLayoutAuto(itemTitles: titles, config: config)
+        let appearance = KKSegmentControlAppearance()
+        let layout = KKSegmentControlLayoutAuto(itemTitles: titles as! NSMutableArray, appearance: appearance)
         let vc = KKSegmentControlVC(itemTitles: titles, layout: layout)
         vc.delegate = self
         
