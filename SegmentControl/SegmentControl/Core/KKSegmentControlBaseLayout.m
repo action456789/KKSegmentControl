@@ -7,6 +7,7 @@
 //
 
 #import "KKSegmentControlBaseLayout.h"
+#import <Masonry/Masonry.h>
 
 @implementation KKSegmentControlBaseLayout {
     UIView *_superView;

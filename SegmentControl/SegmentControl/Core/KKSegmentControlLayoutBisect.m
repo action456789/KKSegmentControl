@@ -7,10 +7,13 @@
 //
 
 #import "KKSegmentControlLayoutBisect.h"
+#import <Masonry/Masonry.h>
 
 @implementation KKSegmentControlLayoutBisect
 
 - (void)layoutItemsViews:(NSArray *)views {
+    [super layoutItemsViews:views];
+    
     __block CGFloat itemX = self.appearance.firstItemLeftPadding;
     
     [views enumerateObjectsUsingBlock:^(id view, NSUInteger idx, BOOL * _Nonnull stop) {

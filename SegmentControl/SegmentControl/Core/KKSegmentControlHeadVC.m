@@ -10,6 +10,7 @@
 #import "KKSegmentControlLayoutAuto.h"
 #import "KKSegmentControlLayoutBisect.h"
 #import "UIView+Frame.h"
+#import <Masonry/Masonry.h>
 
 @interface KKSegmentControlHeadVC ()
 {

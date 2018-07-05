@@ -47,6 +47,12 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) UIView *headerContainerView;
 @property (nonatomic, strong) UIView *pageContainerView;
 
+
+/**
+ 当前 Index
+ */
+@property (nonatomic, assign) NSUInteger currentIndex;
+
 - (void)clearCache;
 
 @end

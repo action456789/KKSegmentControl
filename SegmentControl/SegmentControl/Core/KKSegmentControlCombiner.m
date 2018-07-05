@@ -6,6 +6,7 @@
 //
 
 #import "KKSegmentControlCombiner.h"
+#import <Masonry/Masonry.h>
 
 @interface KKSegmentControlCombiner() <KKSegmentControlHeadVCDelegate, KKSegmentControlPageVCDelegate>
 
@@ -40,6 +41,8 @@
         [self createPageWithControllers:controllers];
         
         _cache = [[NSCache alloc] init];
+        
+        _currentIndex = 0;
     }
     return self;
 }
@@ -102,6 +105,7 @@
                      toIndex:(NSUInteger)to
 {
     [self.pageVC setCurrentPage:to isUserOperate:NO];
+    self.currentIndex = to;
 }
 
 #pragma mark - KKSegmentControlPageVCDelegate delegate
@@ -111,6 +115,8 @@
                      toIndex:(NSUInteger)to
                isUserOperate:(BOOL)isUserOperate
 {
+    self.currentIndex = to;
+    
     if (isUserOperate) {
         [self.headVC autoScrollItemsScrollViewFromIndex:from toIndex:to animate:YES];
     }

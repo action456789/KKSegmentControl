@@ -7,12 +7,15 @@
 //
 
 #import "KKSegmentControlLayoutAuto.h"
+#import <Masonry/Masonry.h>
 
 @implementation KKSegmentControlLayoutAuto {
     __weak NSArray *_btns;
 }
 
 -(void)layoutItemsViews:(NSArray *)views {
+    [super layoutItemsViews:views];
+    
     _btns = views;
     
     __block CGFloat itemX = self.appearance.firstItemLeftPadding;
