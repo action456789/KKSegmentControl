@@ -35,7 +35,7 @@ NS_ASSUME_NONNULL_BEGIN
                        controllers:(NSArray<__kindof UIViewController *> * _Nullable)controllers
                             layout:(__kindof KKSegmentControlBaseLayout *)layout;
 
-@property (nonatomic, assign) id<KKSegmentControlCombinerDelegate> delegate;
+@property (nonatomic, weak) id<KKSegmentControlCombinerDelegate> delegate;
 
 
 /**

@@ -26,7 +26,39 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="78" y="29"/>
+            <point key="canvasLocation" x="708" y="29"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="nbW-rs-4kp">
+            <objects>
+                <viewController id="4r3-oe-Kx9" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="t7A-9b-HNp"/>
+                        <viewControllerLayoutGuide type="bottom" id="xby-uR-LTR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="YTD-rT-mXz">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VVH-B7-Fel">
+                                <rect key="frame" x="164.5" y="318.5" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="0Jb-Ei-Iyc"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="VVH-B7-Fel" firstAttribute="centerY" secondItem="YTD-rT-mXz" secondAttribute="centerY" id="BN4-jE-eSd"/>
+                            <constraint firstItem="VVH-B7-Fel" firstAttribute="centerX" secondItem="YTD-rT-mXz" secondAttribute="centerX" id="DYt-y7-2Dn"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="OzB-05-2c3"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bJs-GF-Axj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-23" y="29"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="zcg-Ua-xq5">
@@ -37,7 +69,7 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="ybO-DF-7Wi"/>
+                        <segue destination="4r3-oe-Kx9" kind="relationship" relationship="rootViewController" id="vri-fN-3DI"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LnJ-Cg-Xqg" userLabel="First Responder" sceneMemberID="firstResponder"/>
