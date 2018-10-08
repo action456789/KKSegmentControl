@@ -1,6 +1,6 @@
 PODS:
   - Masonry (1.1.0)
-  - SnapKit (4.0.0)
+  - SnapKit (4.0.1)
 
 DEPENDENCIES:
   - Masonry
@@ -13,7 +13,7 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  SnapKit: 0de968a9fec17499afa29683b05d0c775b6d1c29
 
 PODFILE CHECKSUM: f0ae5b33bcd508ed3bc33c39b0a699957eb8ce61
 

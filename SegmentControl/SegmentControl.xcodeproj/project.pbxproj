@@ -177,12 +177,6 @@
 				2E3E558120BEA45900AB685E /* SlideTabBarItemController.m */,
 				2E3E558A20BEA4F800AB685E /* UIColor+Creator.h */,
 				2E3E558B20BEA4F800AB685E /* UIColor+Creator.m */,
-				2E3E558E20BEA66700AB685E /* UIColor+FormatConversion.h */,
-				2E3E558D20BEA66600AB685E /* UIColor+FormatConversion.m */,
-				2E3E559020BEA68000AB685E /* NSString+Trim.h */,
-				2E3E559120BEA68000AB685E /* NSString+Trim.m */,
-				2E3E559320BEA6AE00AB685E /* UIView+Frame.h */,
-				2E3E559420BEA6AE00AB685E /* UIView+Frame.m */,
 				2E3E552F20BE9FF100AB685E /* Assets.xcassets */,
 				2E3E553120BE9FF100AB685E /* LaunchScreen.storyboard */,
 				2E3E553420BE9FF100AB685E /* Info.plist */,
@@ -249,6 +243,12 @@
 				2EDA09E120E3C223006E91C5 /* KKSegmentControlVC.m */,
 				2EDA09E720E3C224006E91C5 /* KKSegmentTableViewVC.h */,
 				2EDA09E920E3C224006E91C5 /* KKSegmentTableViewVC.m */,
+				2E3E558E20BEA66700AB685E /* UIColor+FormatConversion.h */,
+				2E3E558D20BEA66600AB685E /* UIColor+FormatConversion.m */,
+				2E3E559020BEA68000AB685E /* NSString+Trim.h */,
+				2E3E559120BEA68000AB685E /* NSString+Trim.m */,
+				2E3E559320BEA6AE00AB685E /* UIView+Frame.h */,
+				2E3E559420BEA6AE00AB685E /* UIView+Frame.m */,
 			);
 			path = Core;
 			sourceTree = "<group>";
